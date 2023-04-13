@@ -8,6 +8,7 @@ const cartproductSchema = new mongoose.Schema({
   quantity: Number,
   description: String,
   tagline: String,
+  quant:Number,
 });
 
 const CartProduct = mongoose.model("cart", cartproductSchema);
